@@ -1,0 +1,5 @@
+package enums;
+
+public enum StatusOfOrder {
+	PROCESSING, PREPARATION, WAIT_DELIVERER, REQUEST, TRANSPORT, DELIVERED, CANCELED
+}

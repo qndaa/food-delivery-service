@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <div id="aplication">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-dark">
+      <a class="navbar-brand" href="#/">DonesiApp</a>
+      <div class="container-fluid nav nav-pills" role="tablist">
+
+        <!-- Left -->
+        <a class="nav-link bg-light ml-2 mr-2" href="#/home"> Pocetna </a>
+        <a v-if="mode==='ADMINISTRATOR'" class="nav-link bg-light ml-2 mr-2"  href="#/createUser">Dodaj korisnika</a>
+        <a v-if="mode==='ADMINISTRATOR'" class="nav-link bg-light ml-2 mr-2" href="#/allUsers">Svi korisnici</a>
+        <a v-if="mode==='ADMINISTRATOR'" class="nav-link bg-light ml-2 mr-2" href="#/createRestaurant">Dodaj restoran</a>
+        <a v-if="mode==='MANAGER'" class="nav-link bg-light ml-2 mr-2" href="#/myRestaurant">Moj restoran</a>
+        <a v-if="mode==='CUSTOMER'" class="nav-link bg-light ml-2 mr-2" href="#/basket">Korpa</a>
+        <a v-if="mode === 'MANAGER'" class="nav-link bg-light ml-2 mr-2" href="#/managerOrders">Porudzbine</a>
+        <a v-if="mode === 'CUSTOMER'" class="nav-link bg-light ml-2 mr-2" href="#/customerOrders">Porudzbine</a>
+
+        <a v-if="mode==='DELIVERER'" class="nav-link bg-light ml-2 mr-2" href="#/delivererOrders">Porudzbine</a>
+
+
+        <!-- Right -->
+        <a v-if="mode==='NO_LOGIN'" class="nav-link bg-light ml-auto mr-2" href="#/registration">Registrovanje kupca</a>
+
+        <a v-if="mode==='NO_LOGIN'" class="nav-link bg-light ml-2 mr-2" href="#/login">Prijavljivanje</a>
+
+        <a v-if="mode!='NO_LOGIN'" class="nav-link bg-light ml-auto mr-2" href="#/profile">Profil</a>
+
+        <a v-if="mode!='NO_LOGIN'" class="nav-link bg-light ml-2 mr-2"  v-on:click.prevent="logout" href="#/login">Odjavi se</a>
+      </div>
+    </nav>
+
+    <router-view></router-view>
+  </div>
+
+
+
+  <script src="js/vue.js"></script>
+  <script src="js/vue-router.js"></script>
+  <script src="js/axios.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/toast.js"></script>
+
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  </script>
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+  </script>
+
+  <script src="app/login.js"></script>
+  <script src="app/registration.js"></script>
+  <script src="app/validationAcces.js"></script>
+  <script src="app/profile.js"></script>
+  <script src="app/createUser.js"></script>
+  <script src="app/allUsers.js"></script>
+  <script src="app/creatRestaurant.js"></script>
+  <script src="app/home.js"></script>
+  <script src="app/myRestaurant.js"></script>
+  <script src="app/restaurant.js"></script>
+  <script src="app/basket.js"></script>
+  <script src="app/delivererOrders.js"></script>
+  <script src="app/customerOrders.js"></script>
+  <script src="app/managerOrders.js"></script>
+  <script src="app/app.js"></script>
+
+
+</body>
+</html>

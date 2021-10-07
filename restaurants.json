@@ -1,0 +1,108 @@
+[ "java.util.ArrayList", [ [ "beans.Restaurant", {
+  "id" : "ab39a6c4-5ab6-41c8-a52f-ef5d58f65955",
+  "name" : "Mc Donalds",
+  "tipRestaurant" : "FAST_FOOD",
+  "statusOfRestaurant" : "WORK",
+  "location" : [ "beans.Location", {
+    "geographicalWidth" : 0.0,
+    "geographicalLength" : 0.0,
+    "address" : [ "beans.Address", {
+      "street" : "Bulevar Oslobodjenja",
+      "numberHouse" : 1,
+      "city" : "Novi Sad",
+      "postNumber" : 21000
+    } ]
+  } ],
+  "logoPath" : "data/img/66c9672a-d713-4d85-b6ae-5675894d9766.jpg",
+  "articles" : [ "java.util.ArrayList", [ ] ],
+  "avgMark" : 0.0,
+  "deleted" : true,
+  "managerId" : "e49c70e1-8a81-4c03-988b-d9e4d6d40954"
+} ], [ "beans.Restaurant", {
+  "id" : "e252ec1c-cd27-4cd0-a3b3-25018bff3be9",
+  "name" : "Mc Donalds",
+  "tipRestaurant" : "FAST_FOOD",
+  "statusOfRestaurant" : "WORK",
+  "location" : [ "beans.Location", {
+    "geographicalWidth" : 0.0,
+    "geographicalLength" : 0.0,
+    "address" : [ "beans.Address", {
+      "street" : "Bulevar Oslobodjenja",
+      "numberHouse" : 1,
+      "city" : "Novi Sad",
+      "postNumber" : 32133
+    } ]
+  } ],
+  "logoPath" : "data/img/29ef8129-d86c-49a8-9e3f-7afdb75a1a98.jpg",
+  "articles" : [ "java.util.ArrayList", [ ] ],
+  "avgMark" : 0.0,
+  "deleted" : true,
+  "managerId" : "e49c70e1-8a81-4c03-988b-d9e4d6d40954"
+} ], [ "beans.Restaurant", {
+  "id" : "52fbc468-4163-4f81-bd25-1bd8ebed9a83",
+  "name" : "Pasta",
+  "tipRestaurant" : "ITALIAN_FOOD",
+  "statusOfRestaurant" : "WORK",
+  "location" : [ "beans.Location", {
+    "geographicalWidth" : 0.0,
+    "geographicalLength" : 0.0,
+    "address" : [ "beans.Address", {
+      "street" : "Bulevar Oslobodjenja",
+      "numberHouse" : 2,
+      "city" : "Beograd",
+      "postNumber" : 20000
+    } ]
+  } ],
+  "logoPath" : "data/img/e07c7a3d-8c3e-4b62-b09c-58a7300b23e7.jpg",
+  "articles" : [ "java.util.ArrayList", [ ] ],
+  "avgMark" : 0.0,
+  "deleted" : true,
+  "managerId" : "35788109-cdfe-4b8e-8eeb-b63967abc769"
+} ], [ "beans.Restaurant", {
+  "id" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00",
+  "name" : "Paste tali",
+  "tipRestaurant" : "ITALIAN_FOOD",
+  "statusOfRestaurant" : "WORK",
+  "location" : [ "beans.Location", {
+    "geographicalWidth" : 0.0,
+    "geographicalLength" : 0.0,
+    "address" : [ "beans.Address", {
+      "street" : "Bulevar cara Dusana",
+      "numberHouse" : 1,
+      "city" : "Beograd",
+      "postNumber" : 12333
+    } ]
+  } ],
+  "logoPath" : "data/img/108bb4ef-014d-4aa4-afd5-f5fd179e066a.jpg",
+  "articles" : [ "java.util.ArrayList", [ [ "beans.Article", {
+    "id" : "d4ee63cb-499e-4d90-8fc0-0b8cfab2588b",
+    "name" : "ham",
+    "price" : 220.0,
+    "quantity" : 0.0,
+    "tipArticle" : "FOOD",
+    "description" : "",
+    "imagePath" : "data/img/3aa8f7ca-a195-42c8-b2b1-ad077b5f44b2.jpg",
+    "restaurantID" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00"
+  } ], [ "beans.Article", {
+    "id" : "2b5ce4dc-1d1e-435c-975e-d81bd385d589",
+    "name" : "Kola",
+    "price" : 222.0,
+    "quantity" : 0.0,
+    "tipArticle" : "FOOD",
+    "description" : "",
+    "imagePath" : "data/img/7943d42d-d941-4fe8-9457-ae5a7460cabb.jpg",
+    "restaurantID" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00"
+  } ], [ "beans.Article", {
+    "id" : "2e81a86b-ef52-4b9f-b847-638bcd1c07aa",
+    "name" : "dasss",
+    "price" : 13.0,
+    "quantity" : 1.0,
+    "tipArticle" : "FOOD",
+    "description" : "",
+    "imagePath" : "data/img/73b806c0-d3c4-49ef-ad01-0c92bf47f710.jpg",
+    "restaurantID" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00"
+  } ] ] ],
+  "avgMark" : 0.0,
+  "deleted" : false,
+  "managerId" : "190b5977-7198-4fb2-a5a7-a3c3df59a12a"
+} ] ] ]

@@ -1,0 +1,59 @@
+[ "java.util.ArrayList", [ [ "beans.Order", {
+  "id" : "8037c9c8-210a-4a0f-830b-3276554d4e63",
+  "price" : 242.0,
+  "statusOfOrder" : "PROCESSING",
+  "date" : "2021-09-09 10:20:13",
+  "commended" : false,
+  "discout" : 0.0,
+  "items" : [ "java.util.ArrayList", [ [ "beans.OrderItem", {
+    "article" : [ "beans.Article", {
+      "id" : "d4ee63cb-499e-4d90-8fc0-0b8cfab2588b",
+      "name" : "ham",
+      "price" : 220.0,
+      "quantity" : 0.0,
+      "tipArticle" : "FOOD",
+      "description" : "",
+      "imagePath" : null,
+      "restaurantID" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00"
+    } ],
+    "quantity" : 1
+  } ], [ "beans.OrderItem", {
+    "article" : [ "beans.Article", {
+      "id" : "2b5ce4dc-1d1e-435c-975e-d81bd385d589",
+      "name" : "Kola",
+      "price" : 22.0,
+      "quantity" : 0.0,
+      "tipArticle" : "FOOD",
+      "description" : "",
+      "imagePath" : null,
+      "restaurantID" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00"
+    } ],
+    "quantity" : 1
+  } ] ] ],
+  "customerId" : "cae7887d-830a-4c8e-b58f-29b6a0f8c3c2",
+  "delivererId" : null,
+  "restaurantId" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00"
+} ], [ "beans.Order", {
+  "id" : "7ceb6226-590d-4ef1-815a-f12e869623ab",
+  "price" : 220.0,
+  "statusOfOrder" : "PROCESSING",
+  "date" : "2021-09-10 10:43:46",
+  "commended" : false,
+  "discout" : 0.0,
+  "items" : [ "java.util.ArrayList", [ [ "beans.OrderItem", {
+    "article" : [ "beans.Article", {
+      "id" : "d4ee63cb-499e-4d90-8fc0-0b8cfab2588b",
+      "name" : "ham",
+      "price" : 220.0,
+      "quantity" : 0.0,
+      "tipArticle" : "FOOD",
+      "description" : "",
+      "imagePath" : null,
+      "restaurantID" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00"
+    } ],
+    "quantity" : 1
+  } ] ] ],
+  "customerId" : "4db39006-d744-46d7-aa48-a84b985aff7f",
+  "delivererId" : null,
+  "restaurantId" : "c80e3c90-2da9-447b-a79a-11b3b4c3cb00"
+} ] ] ]
